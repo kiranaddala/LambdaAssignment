@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="stepDefinition.TestScenario2">
+        <methods>
+          <include name="the_user_launch_the_browser_and_url"/>
+          <include name="click_on_Drag_and_Drop"/>
+          <include name="Increase_the_Bar"/>
+        </methods>
+      </class> <!-- stepDefinition.TestScenario2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
